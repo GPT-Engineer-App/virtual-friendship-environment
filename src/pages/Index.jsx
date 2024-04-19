@@ -5,7 +5,7 @@ import { FaRobot, FaPaintBrush, FaUsers, FaCloud } from "react-icons/fa";
 const Index = () => {
   return (
     <Container maxW={{ base: "container.sm", md: "container.md", lg: "container.xl" }}>
-      <Flex direction={{ base: "column", md: "row" }} align="center" my={10}>
+      <Flex direction="column" align="center" my={10}>
         <Heading as="h1" size="2xl" mb={2}>
           Digital ReaLLMs
         </Heading>
