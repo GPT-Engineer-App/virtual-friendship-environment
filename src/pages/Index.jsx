@@ -53,7 +53,7 @@ const Index = () => {
           </Flex>
         </Box>
 
-        <Button rightIcon={<FaRobot />} colorScheme="blue" mt={10} size="lg">
+        <Button rightIcon={<FaRobot />} colorScheme="blue" mt={10} size="lg" onClick={() => (window.location.href = "/welcome")}>
           Start Your Journey
         </Button>
       </Flex>
